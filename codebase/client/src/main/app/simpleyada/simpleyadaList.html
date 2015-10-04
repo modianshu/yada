@@ -1,0 +1,8 @@
+<div>
+    <table>
+        <tr ng-repeat="yada in vm.listOfSimpleYadas">
+            <td> <a ui-sref="simpleYadaView({yadaId: yada.id})">{{yada.title1}}</a> </td>
+            <td>{{ yada.title2 }}</td>
+        </tr>
+    </table>
+</div>

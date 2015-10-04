@@ -1,0 +1,58 @@
+package yada.model.content;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.mongodb.morphia.Datastore;
+import org.mongodb.morphia.Morphia;
+
+import com.mongodb.MongoClient;
+import org.bson.Document;
+import org.mongodb.morphia.Datastore;
+import org.mongodb.morphia.Morphia;
+
+import com.mongodb.*;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import yada.util.MorphiaManager;
+
+@Path("simpleyada")
+public class SimpleYadaController {
+	
+	
+		/**
+		 *Manage Simple Yadas 
+		 *get the list of all the simple yadas id and names
+		 *get the Simple Yada by id
+		 *delete the simple yada by id
+		 *create a new simple yada
+		 *get the list of simple yada for a particular type ..like poem?
+		 *publish a yada to your share group
+		 *submit a yada for an assignment
+		 *submit a yada for a competition
+		 *save a yada as draft
+		 *
+		 *
+		 *
+		 */
+		@GET
+		@Produces(MediaType.APPLICATION_JSON)
+		public String get() {
+	    	Morphia morphia = new Morphia();
+	    	Datastore datastore = MorphiaManager.getInstance().d();
+	    	
+	    	SimpleYada y = datastore.createQuery(SimpleYada.class)
+	        .field("name").equal("FUSD").get();
+	    	return morphia.toDBObject(ld).toString();
+		}
+		
+		
+	}
+
+
+	
+	
+
+

@@ -1,0 +1,62 @@
+package yada.model.content;
+
+import org.bson.types.ObjectId;
+import org.mongodb.morphia.annotations.Entity;
+import org.mongodb.morphia.annotations.Id;
+
+@Entity
+public class SimpleYada 
+{
+	@Id
+	private ObjectId id;
+	
+	public ObjectId getId()
+	{
+		return id;
+	}
+	public String getTitle1() {
+		return title1;
+	}
+	public void setTitle1(String title1) {
+		this.title1 = title1;
+	}
+	public String getTitle2() {
+		return title2;
+	}
+	public void setTitle2(String title2) {
+		this.title2 = title2;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public SimpleYadaType getType() {
+		return type;
+	}
+	public void setType(SimpleYadaType type) {
+		this.type = type;
+	}
+	public SimpleYadaStatus getStatus() {
+		return status;
+	}
+	public void setStatus(SimpleYadaStatus status) {
+		this.status = status;
+	}
+	private String title1, title2, content;
+	public enum SimpleYadaType {THOUGHT, STORY, POEM, NEWSANALYSIS, PICTUREANALYSIS};
+	public enum SimpleYadaStatus {DRAFT, PUBLISHED, APPROVED, REJECTED };
+	
+	private SimpleYadaType type;
+	private SimpleYadaStatus status;
+	
+	public SimpleYada()
+	{
+		
+	}
+	
+	
+	
+
+}

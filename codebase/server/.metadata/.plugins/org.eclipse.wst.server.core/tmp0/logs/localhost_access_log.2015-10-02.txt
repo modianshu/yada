@@ -1,0 +1,9 @@
+127.0.0.1 - - [02/Oct/2015:20:04:41 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:05:57 -0700] "GET /yadaserver/api/simpleyada HTTP/1.1" 200 1281
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:07:02 -0700] "GET /yadaserver/api/simpleyada HTTP/1.1" 200 1281
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:07:07 -0700] "GET /yadaserver/api/simpleyada/5601d8c862db1f1940fd9b86 HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:16:38 -0700] "GET /yadaserver/api/simpleyada/5601d8c862db1f1940fd9b86 HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:53:48 -0700] "GET /yadaserver/api/simpleyada HTTP/1.1" 200 1281
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:53:57 -0700] "GET /yadaserver/api/simpleyada/5601d8c862db1f1940fd9b86 HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:57:44 -0700] "GET /yadaserver/api/simpleyada HTTP/1.1" 200 1281
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:23:02:02 -0700] "GET /yadaserver/api/simpleyada HTTP/1.1" 200 1281

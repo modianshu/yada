@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app.simpleyada">
+<script src="/client/bower_components/angular/angular.js"></script>
+<script src="/client/bower_components/angular-resource/angular-resource.js"></script>
+<script src="/client/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="/client/other_components/logger.js"></script>
+<script src="/client/src/main/app/simpleyada/simpleyada.module.js"></script>
+<script src="/client/src/main/app/simpleyada/simpleyadaList.controller.js"></script>
+<script src="/client/src/main/app/simpleyada/simpleyadaView.controller.js"></script>
+<script src="/client/src/main/app/simpleyada/simpleyada.dao.js"></script>
+<script src="/client/src/main/app/simpleyada/simpleyada.routes.js"></script>
+<script>
+    Logger.useDefaults();
+</script>
+<body>
+<h1> Welcome to my Let's Write Application. Hope this helps you achieve your goals in the field of creative writing!</h1>
+
+<div ui-view></div>
+<!--<div data-ng-include="'app/simpleyada/simpleyadaList.html'"></div>-->
+</body>
+</html>

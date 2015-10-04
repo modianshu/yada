@@ -1,0 +1,25 @@
+{
+  "name": "Yada Client",
+  "version": "0.0.1",
+  "description": "Yada Client",
+  "authors": [
+    "VJ"
+  ],
+  "homepage": "http://www.googe.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "latest"
+  },
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-resource": "latest",
+    "angular-ui-router": "latest"
+  }
+}

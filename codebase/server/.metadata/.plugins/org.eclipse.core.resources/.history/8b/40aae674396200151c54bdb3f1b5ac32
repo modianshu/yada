@@ -1,0 +1,10 @@
+package yada.common;
+
+import javax.ws.rs.*;
+
+@ApplicationPath("resources")
+public class YadaRestServer extends ResourceConfig {
+    public MyApplication() {
+        packages("org.foo.rest;org.bar.rest");
+    }
+}

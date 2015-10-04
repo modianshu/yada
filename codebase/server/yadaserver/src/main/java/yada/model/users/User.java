@@ -1,0 +1,16 @@
+package yada.model.users;
+
+import java.util.Date;
+
+import yada.model.BaseEntity;
+
+public class User extends BaseEntity
+{
+	public enum UserType {CHILD, TEACHER, PARENT, GUEST, SCHOOLADMIN, SYSTEMADMIN};
+	private String email, screenName, accountDisabledReason ;
+	private UserType role; 
+	private Date lastLoggedIn, memberSince, acctExpirationDate;
+	private String[] guardians;
+	private boolean accountDisabled, canShareWithClass, canShareWithSchool, canShareWithPublic;
+	
+	}

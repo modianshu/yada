@@ -1,0 +1,45 @@
+package yada.model.content;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.mongodb.morphia.Datastore;
+import org.mongodb.morphia.Morphia;
+
+import com.mongodb.MongoClient;
+import org.bson.Document;
+import org.bson.types.ObjectId;
+import org.mongodb.morphia.Datastore;
+import org.mongodb.morphia.Morphia;
+
+import com.mongodb.*;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import yada.util.MorphiaManager;
+
+@Path("simpleyada")
+public class SimpleYadaController {
+
+	SimpleYadaDAO dao = new SimpleYadaDAO();
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<SimpleYada> get() {
+		return dao.createQuery().asList();
+
+	}
+	
+	@Path("{id}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public SimpleYada get(@PathParam("id") ObjectId id)
+	{
+		return dao.get(id);
+	}
+
+}
