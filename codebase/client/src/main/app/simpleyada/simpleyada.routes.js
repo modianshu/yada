@@ -14,18 +14,18 @@
                             'simpleYadaList',
                             {
                                 url: '/',
-                                templateUrl: 'app/simpleyada/simpleyadaList.html',
+                                templateUrl: 'src/main/app/simpleyada/simpleyadaList.html',
                                 controller: 'SimpleYadaListController',
                                 controllerAs: "vm"
                             }
                         )
                         .state
                         (
-                            'simpleYadaView',
+                            'simpleYadaEdit',
                             {
-                                url: '/simpleYadaView/:yadaId',
-                                templateUrl: 'app/simpleyada/simpleyadaView.html',
-                                controller:'SimpleYadaViewController',
+                                url: '/simpleYadaEdit/:id',
+                                templateUrl: 'src/main/app/simpleyada/simpleyadaEdit.html',
+                                controller:'SimpleYadaEditController',
                                 controllerAs: "vm"
                             }
                         );

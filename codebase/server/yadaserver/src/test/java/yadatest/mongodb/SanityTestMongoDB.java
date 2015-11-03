@@ -10,11 +10,12 @@ import org.junit.Test;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.BasicDBObject;
 
-import yada.model.content.SimpleYada;
-import yada.model.content.SimpleYada.SimpleYadaType;
-import yada.model.content.SimpleYadaDAO;
+import yada.content.SimpleYada;
+import yada.content.SimpleYadaDAO;
+import yada.content.SimpleYada.SimpleYadaType;
+
+import com.mongodb.BasicDBObject;
 
 public class SanityTestMongoDB {
 	MongoCollection<Document> collection;

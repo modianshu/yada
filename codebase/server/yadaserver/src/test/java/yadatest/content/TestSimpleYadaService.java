@@ -1,0 +1,44 @@
+package yadatest.content;
+
+import yadatest.BaseTest;
+
+import org.bson.types.ObjectId;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+
+import yada.common.user.User;
+import yada.common.user.User.UserType;
+import yada.content.SimpleYada;
+import yada.content.SimpleYada.SimpleYadaType;
+
+public class TestSimpleYadaService extends BaseTest {
+
+	@Override
+	public String getRESTEndPointEntity() {
+		// TODO Auto-generated method stub
+		return "simpleyada";
+	}
+
+	@Override
+	public String getJSON() {
+		SimpleYada sy = new SimpleYada();
+		sy.setId(new ObjectId(ID));
+		sy.setTitle1("title1");
+		sy.setTitle2("title2");
+		sy.setContent("this is contnent....");
+		sy.setType(SimpleYadaType.POEM);
+	
+		ObjectWriter writer = new ObjectMapper().writer();
+		try {
+			return writer.writeValueAsString(sy);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "";
+	}
+	}
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestUserService" project="yadaserver" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="yadatest.common.user.TestUserService" time="1.437">
+    <testcase name="testCreateAndDelete" classname="yadatest.common.user.TestUserService" time="1.348"/>
+    <testcase name="testList" classname="yadatest.common.user.TestUserService" time="0.089"/>
+  </testsuite>
+</testrun>

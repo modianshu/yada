@@ -1,0 +1,42 @@
+package yadatest.common;
+import org.junit.Test;
+import static com.jayway.restassured.RestAssured.*;
+import static com.jayway.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+import yada.coach.group.*;
+import org.bson.types.*;
+
+public class BaseTest {
+	
+	public static String REST_BASE_URL = "http://localhost:8080/yadaserver/api";
+	
+	public void testList()
+	{
+		//list
+		given()
+		.when().
+			get("http://localhost:8080/yadaserver/api/group")
+		.then()
+			.statusCode(200)
+			.log()
+			.all();
+	}
+	
+	public void testCreate()
+	{
+		
+	}
+	
+	public void testEdit()
+	{
+		
+	}
+	
+	public void testDelete()
+	{
+		
+	}
+	
+	
+
+}

@@ -1,8 +1,18 @@
-<div>
-    <table>
+<div class="container-fluid">
+    <a class="btn btn-info btn-lg" ui-sref="simpleYadaEdit()">
+        <span class="glyphicon glyphicon-plus"></span> Add a new Yada
+       </a>
+    <br>
+    <br>
+        <table class="table table-striped">
         <tr ng-repeat="yada in vm.listOfSimpleYadas">
-            <td> <a ui-sref="simpleYadaView({yadaId: yada.id})">{{yada.title1}}</a> </td>
-            <td>{{ yada.title2 }}</td>
+            <td> <a ui-sref="simpleYadaEdit({id: yada.id})"> <h4>{{yada.title1}}</h4><h5>{{yada.title2}}</h5> </a> </td>
+            <td>{{ yada.content }}</td>
+            <td>
+                <button class="btn btn-danger" ng-click="vm.delete(yada.id)">
+                    <i class="fa fa-trash-o fa-lg"></i> Delete
+                </button>
+            </td>
         </tr>
     </table>
 </div>

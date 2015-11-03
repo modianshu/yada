@@ -1,7 +1,0 @@
-package rest;
-
-import o
-
-public class TestSimpleYada extends JerseyTest{
-
-}

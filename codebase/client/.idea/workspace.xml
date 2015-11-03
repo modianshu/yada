@@ -1,7 +1,301 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35bc2eb2-1d81-46ad-b6c9-30c2e6530331" name="Default" comment="" />
+    <list default="true" id="35bc2eb2-1d81-46ad-b6c9-30c2e6530331" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Assignment/Assignment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Assignment/AssignmentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Assignment/AssignmentList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Assignment/AssignmentListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/services/AuthorizationService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/content/BookReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/content/BookReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/content/BookReportController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/content/BookReportController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Class/Class.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Class/ClassController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Class/ClassList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Class/ClassListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/CoachDashboard/CoachDashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/Comments/Comments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/Comments/CommentsController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Competition/Competition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Competition/CompetitionController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Competition/CompetitionList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Competition/CompetitionListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/contentlist/ContentList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/content/ContentList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/contentlist/ContentListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/content/ContentListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/student/Fitbit/Fitbit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/student/Fitbit/FitbitController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/Footer/Footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/Footer/FooterController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/Grades.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/GradesController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/grading/Grading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/grading/Grading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/GradingBoard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/GradingBoardController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/grading/GradingController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/grading/GradingController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/grading/GradingModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/grading/GradingModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/Header/Header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/header/HeaderController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/Header/HeaderController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/HomePageContent/HomePageContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/HomePageContent/HomePageContentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/LikeComment/LikeComment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/LikeComment/LikeCommentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/NewsFeed/NewsFeed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/social/NewsFeed/NewsFeedController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/ReviewComments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/coach/Grading/ReviewCommentsController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignIn/SignIn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignIn/SignInController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignupCoach/SignupCoach.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignupCoach/SignupCoachController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignupStudent/SignupStudent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/homepage/SignupStudent/SignupStudentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/comments/SimpleComments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/comments/SimpleComments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/comments/SimpleCommentsController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/subsubstate/comments/SimpleCommentsController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/content/SimpleContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/content/SimpleContentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/student/StudentDashboard/StudentDashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/student/StudentDashboard/StudentDashboardController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_old.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/core/core.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/grading.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/grading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/grading.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/grading.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/grading.module_option1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/gradingIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/header/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_old.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/signup/signup.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/signup/signup.dao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/signup/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/signup/signup.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/signup/signup.routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionComments.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionComments.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionComments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionComments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionContent.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentView/submissionContent.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionContent.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentView/submissionContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionList.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentListing/submissionList.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionList.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/1ModuleNViews/submissionList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentListing/submissionList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/grading/submissionList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentView/submissioncontent.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding/contentListing/submissionlist.module.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/1/1055b4f7046200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/11/601a76372f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/15/b0811f90396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/2/f02bcc663a6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/25/309072e6336200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/26/007bd5a97b610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/2c/40b309203a6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/2f/0039c1de326200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/33/30e4ce0b1d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/36/305386cf0a6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/38/60f272d2376200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/38/707dfc5d7e610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/4/70c917ea3e6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/40/10343899196200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/40/30e2a380396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/43/20d30080336200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/44/604caaa32f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/4a/e0f5b0d01d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/4d/b087e966296200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/4f/30aff963336200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/50/f0fe41687d610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/55/30232f70196200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/55/b081d6094062001510fcd0feb7950a69" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/5f/400befe81a6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/60/105c61912f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/66/7009bb9f326200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/66/70100a743a6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/6b/d0841cec176200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/6c/f0ca65c31d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/6d/20c1cca3326200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/6d/50b846c1196200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/71/40e739931c6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/71/a057d296196200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/72/304daa0d186200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/75/e0b53cf2326200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/77/b043ce963f62001510fcd0feb7950a69" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/7b/c09b6df87c610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/7d/90118bb51a6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/7d/c08fa9a77a610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/84/40a88918186200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/88/30079a9b7c610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/8b/40aae674396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/8b/60ae6c1a3f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/9a/80bc2328296200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/9c/003aae737b690015187fc1b29c117b77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/9f/8082fdab286200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/a/c0780a2e1d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/a1/50a687dc7a610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/a2/301d499a7c610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/a7/90056f200a6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/a7/d05e03ca376200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/aa/c09f96b5196200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b0/90db83102f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b1/d08a12fc1f6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b2/e0a57e372f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b3/30320453396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b6/10c6e6437a610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/b8/0065a5d13e6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/bc/b0c0bbf11f6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/c0/9042075d2f6200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/c5/90c8ab78396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/c7/2024a35b7e610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/c8/60f65c187d610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/ca/c0d89ee31d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/cc/00ceeeb61f6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/d6/208ddeda1d6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/d7/10706362396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/da/50691cde396200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/db/50f7cad97a610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/e4/4094a2827c610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/e9/c0f0e6557e610015174bfd9e2f0d98c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/ed/d044e9ed336200151c54bdb3f1b5ac32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/f6/e0e62684176200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/f8/20b730d60a6200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/f9/1057584b296200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.history/fb/e01339f3096200151fef9d07a1d05797" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/92/22/d4/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/b9/22/85/15/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/b9/22/85/2/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/b9/22/85/29/79/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/b9/22/85/29/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/e4/b9/b3/a8/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.root/10.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/10.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_3.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2017521528.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2040249975.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2148261836.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2597859287.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/3142085119.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/3329751089.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/3362963846.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/409118788.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/4165074574.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_k.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_k_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_l.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_m.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_m_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_n.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_n_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_o.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_o_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_p.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_p_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_q.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_q" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2i.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2i_2.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2j.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2k.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2l.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2m.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/_2n.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/segments_2g" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_2.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments_3" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleYadaView.html" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleYadaEdit.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaView.controller.js" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaEdit.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.markers.snap" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.markers.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.markers" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.syncinfo.snap" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.syncinfo.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2909301773.index" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/2909301773.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/BaseEntity.class" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/BaseEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/BaseEntity.class" afterPath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/BaseEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/util/MorphiaManager.class" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/util/MorphiaManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/util/MorphiaManager.class" afterPath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/util/MorphiaManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/content/SimpleYadaController.class" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/content/SimpleYadaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/content/SimpleYadaController.class" afterPath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/content/SimpleYadaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/content/SimpleYadaDAO.class" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/WEB-INF/classes/yada/model/content/SimpleYadaDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/content/SimpleYadaDAO.class" afterPath="$PROJECT_DIR$/../server/yadaserver/target/classes/yada/model/content/SimpleYadaDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.validation/dep.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/history.index" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.projects/yadaserver/.indexes/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.h2.db" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.h2.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish1.dat" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/segments.gen" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/nexus/d355a6822733704db0afe70c133249be/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" afterPath="$PROJECT_DIR$/../server/.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.jdt/yadaserver.container" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.jdt/yadaserver.container" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.log" afterPath="$PROJECT_DIR$/../server/.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/BaseEntity.java" afterPath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/BaseEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/util/MorphiaManager.java" afterPath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/util/MorphiaManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/content/SimpleYadaController.java" afterPath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/content/SimpleYadaController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/content/SimpleYadaDAO.java" afterPath="$PROJECT_DIR$/../server/yadaserver/src/main/java/yada/model/content/SimpleYadaDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2015-10-03.txt" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2015-10-03.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ui.prefs" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.recommenders.rcp.prefs" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.recommenders.rcp.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/META-INF/maven/yadaserver/yadaserver/pom.properties" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/yadaserver/META-INF/maven/yadaserver/yadaserver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/m2e-wtp/web-resources/META-INF/maven/yadaserver/yadaserver/pom.properties" afterPath="$PROJECT_DIR$/../server/yadaserver/target/m2e-wtp/web-resources/META-INF/maven/yadaserver/yadaserver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/pom.xml" afterPath="$PROJECT_DIR$/../server/yadaserver/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/yadaserver/target/m2e-wtp/web-resources/META-INF/maven/yadaserver/yadaserver/pom.xml" afterPath="$PROJECT_DIR$/../server/yadaserver/target/m2e-wtp/web-resources/META-INF/maven/yadaserver/yadaserver/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.module.js" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.routes.js" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.controller.js" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.html" afterPath="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/version.ini" afterPath="$PROJECT_DIR$/../server/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterPath="$PROJECT_DIR$/../server/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" />
+    </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,31 +315,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="160" column="40" selection-start-line="160" selection-start-column="40" selection-end-line="160" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleyada.routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.routes.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8333333">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoachDashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/coach/CoachDashboard/CoachDashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradingBoard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/GradingBoard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/help.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleyadaList.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.controller.js">
+      <file leaf-file-name="GlobalService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/app/util/GlobalService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38647342">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -55,39 +379,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logger.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other_components/logger.js">
+      <file leaf-file-name="simpleyadaEdit.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaEdit.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51004636">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentDashboardController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/student/StudentDashboard/StudentDashboardController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="249" column="9" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simpleyadaList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simpleYadaView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleYadaView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -98,29 +410,73 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AngularJS-Routes" />
+        <option value="AngularJS-DAO" />
+        <option value="AngularJS-Controller" />
         <option value="Html5" />
+        <option value="AngularJSModule" />
+        <option value="angular-template" />
+        <option value="AngularJS-OnlyController" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/src/main/index.htm.html" />
-        <option value="$PROJECT_DIR$/src/main/index2.html" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.module.js" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.html" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.controller.js" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleYadaView.html" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.routes.js" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaView.controller.js" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.html" />
-        <option value="$PROJECT_DIR$/bower_components/other_libraries/logger.js" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/submissionContent.html" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/submissionList.controller.js" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/gradingIndex.html" />
+        <option value="$PROJECT_DIR$/src/main/app/contentView/submissioncontent.module.js" />
+        <option value="$PROJECT_DIR$/src/main/app/contentListing/submissionList.html" />
+        <option value="$PROJECT_DIR$/src/main/app/contentListing/submissionlist.module.js" />
+        <option value="$PROJECT_DIR$/src/main/app/contentListing/submissionList.controller.js" />
+        <option value="$PROJECT_DIR$/src/main/app/contentView/submissionContent.controller.js" />
+        <option value="$PROJECT_DIR$/src/main/app/contentView/submissionContent.html" />
+        <option value="$PROJECT_DIR$/src/main/app/util/GlobalVariablesService.js" />
         <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js" />
-        <option value="$PROJECT_DIR$/src/main/index.html" />
-        <option value="$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.controller.js" />
+        <option value="$PROJECT_DIR$/src/main/app/util/GlobalService.js" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/grading.html" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/submissionDetails.html" />
+        <option value="$PROJECT_DIR$/src/main/app/contentList/contentList.html" />
+        <option value="$PROJECT_DIR$/src/main/app/content/bookreport.html" />
+        <option value="$PROJECT_DIR$/src/main/app/comments/simplecomments.html" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/grading.module.js" />
+        <option value="$PROJECT_DIR$/app.module.js" />
+        <option value="$PROJECT_DIR$/src/main/app/contentlist/ContentListController.js" />
+        <option value="$PROJECT_DIR$/src/main/app/content/BookReportController.js" />
+        <option value="$PROJECT_DIR$/src/main/app/comments/SimpleCommentsController.js" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/GradingController.js" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/Grading.html" />
+        <option value="$PROJECT_DIR$/src/main/app/contentlist/ContentList.html" />
+        <option value="$PROJECT_DIR$/src/main/app/grading/GradingModule.js" />
+        <option value="$PROJECT_DIR$/src/main/app/header/header.html" />
+        <option value="$PROJECT_DIR$/src/main/app/header/HeaderController.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/header/header.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/HomePageContainer/HomePageContainerController.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/HomePageContainer/HomePageContainer.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/HomePageContent/HomePageContentController.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/Footer/Footer.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/SignupCoach/SignupCoach.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/SignupStudent/SignupStudent.html" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/HomePageApp.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/SignIn/SignInController.js" />
+        <option value="$PROJECT_DIR$/coach.html" />
+        <option value="$PROJECT_DIR$/student.html" />
+        <option value="$PROJECT_DIR$/StudentApp.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/SignIn/SignIn.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/widget/widget.html" />
+        <option value="$PROJECT_DIR$/src/main/coach/CoachApp.js" />
+        <option value="$PROJECT_DIR$/src/main/homepage/Header/Header.html" />
+        <option value="$PROJECT_DIR$/src/main/homepage/HomePageContent/HomePageContent.html" />
+        <option value="$PROJECT_DIR$/src/main/coach/Grading/GradesController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/src/main/coach/CoachDashboard/CoachDashboard.html" />
+        <option value="$PROJECT_DIR$/help.txt" />
       </list>
     </option>
   </component>
@@ -133,10 +489,10 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="718" />
+    <option name="width" value="1912" />
+    <option name="height" value="952" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -159,6 +515,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,64 +587,9 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleyada" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -298,20 +600,33 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/index.html" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/app/simpleyada" />
+      <recent name="$PROJECT_DIR$/src/main/app/trials/subsubstate" />
+      <recent name="$PROJECT_DIR$/src/main/app/grading" />
+      <recent name="$PROJECT_DIR$/src/main/app/contentView" />
+      <recent name="$PROJECT_DIR$/src/main/app/contentListing" />
+      <recent name="$PROJECT_DIR$/src/main/app/trials/1ModuleNSubstates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/coach/CoachDashboard" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/app/trials/NModulesUseServiceDataBinding" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/src/main/index.html">
+  <component name="RunManager" selected="JavaScript Debug.index_old.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/client/index.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/client/src/main/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index_old.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/client/index_old.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="teacherReviewBoard.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/client/src/main/app/simpleyada/teacherReviewBoard.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -344,16 +659,27 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index_old.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.teacherReviewBoard.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index_old.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.teacherReviewBoard.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -371,27 +697,46 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="718" extended-state="0" />
+    <frame x="0" y="22" width="1912" height="952" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16945606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2355606" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2878104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39932507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -405,19 +750,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/SignupStudent/SignupStudent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/SignupCoach/SignupCoach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41566265">
+          <caret line="23" column="106" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/SignIn/SignInController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/package.json">
+    <entry file="file://$PROJECT_DIR$/index_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.25">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Assignment/AssignmentList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Assignment/AssignmentListController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -425,92 +801,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.375">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleYadaView.html">
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Assignment/Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other_components/logger.js">
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Assignment/AssignmentController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="249" column="9" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js">
+    <entry file="file://$PROJECT_DIR$/src/main/content/ContentList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/content/ContentListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/ReviewComments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/content/SimpleContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/content/SimpleContentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Class/ClassList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Class/ClassListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Class/Class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Class/ClassController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaView.controller.js">
+    <entry file="file://$PROJECT_DIR$/src/main/coach/CoachDashboard/CoachDashboardController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2657005">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/student/StudentDashboard/StudentDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/student/Fitbit/Fitbit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/student/Fitbit/FitbitController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/LikeComment/LikeComment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/LikeComment/LikeCommentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/Comments/Comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/Comments/CommentsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/NewsFeed/NewsFeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/social/NewsFeed/NewsFeedController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/services/AuthorizationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072463766">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/app/grading/GradingModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/Header/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23076923">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/SignIn/SignIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/homepage/HomePageContent/HomePageContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5641026">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Competition/CompetitionList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Competition/CompetitionListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaList.controller.js">
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Competition/Competition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38647342">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Competition/CompetitionController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/GradesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/Grades.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/GradingBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/ReviewCommentsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/student/StudentDashboard/StudentDashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8333333">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="160" column="40" selection-start-line="160" selection-start-column="40" selection-end-line="160" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/CoachDashboard/CoachDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/coach/Grading/GradingBoard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/app/util/GlobalService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyada.dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/app/simpleyada/simpleyadaEdit.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51004636">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

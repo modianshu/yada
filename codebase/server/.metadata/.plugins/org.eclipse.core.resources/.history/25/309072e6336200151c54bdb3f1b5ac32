@@ -1,9 +1,0 @@
-package rest;
-
-import org.glassfish.jersey.test.*;
-
-public class TestSimpleYada extends JerseyTest
-{
-	
-
-}

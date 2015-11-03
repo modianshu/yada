@@ -1,0 +1,11 @@
+package yada.coach.group;
+
+import org.mongodb.morphia.annotations.Entity;
+
+import yada.model.BaseEntity;
+
+@Entity
+public class Group extends BaseEntity{
+	private String name, description;
+
+}

@@ -1,0 +1,14 @@
+1446485635308	Rename package 'yada.coach.classes'
+1446491133216	Rename package 'yada.coach.group'
+1446497075561	Delete element
+1446497082696	Delete element
+1446501291427	Delete element
+1446501372679	Rename package 'yada.model.users'
+1446501435494	Rename type 'Author'
+1446501446522	Rename type 'Teacher'
+1446501842592	Rename package 'yada.users'
+1446501880255	Rename package 'yada.model.content'
+1446501928582	Move compilation unit
+1446502129789	Rename package 'yada.common.users'
+1446502351652	Move compilation unit
+1446504631390	Rename type 'SimpleYadaController'

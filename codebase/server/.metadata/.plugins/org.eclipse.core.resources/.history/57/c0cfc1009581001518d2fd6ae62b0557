@@ -1,0 +1,9 @@
+package yadatest.coach.group;
+import org.junit.Test;
+import static com.jayway.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+
+public class TestGroupService {
+
+}

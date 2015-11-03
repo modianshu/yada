@@ -1,0 +1,8 @@
+package yada.coach.group;
+
+import org.mongodb.morphia.annotations.Entity;
+
+@Entity
+public class Group {
+
+}

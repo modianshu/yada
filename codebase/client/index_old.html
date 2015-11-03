@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="other_components/logger.js"></script>
+
+<script src="app.module.js"></script>
+<script src="src/main/app/core/core.module.js"></script>
+<script src="src/main/app/util/GlobalService.js"></script>
+<script src="src/main/app/simpleyada/simpleyada.module.js"></script>
+<script src="src/main/app/simpleyada/simpleyadaList.controller.js"></script>
+<script src="src/main/app/simpleyada/simpleyadaEdit.controller.js"></script>
+<script src="src/main/app/simpleyada/simpleyada.dao.js"></script>
+<script src="src/main/app/simpleyada/simpleyada.routes.js"></script>
+
+<script src="src/main/app/signup/signup.module.js"></script>
+<script src="src/main/app/signup/signup.routes.js"></script>
+<script src="src/main/app/signup/signup.dao.js"></script>
+<script src="src/main/app/signup/signup.controller.js"></script>
+
+<script src="src/main/app/grading/GradingController.js"></script>
+
+<script src="src/main/app/comments/SimpleCommentsController.js"></script>
+<script src="src/main/app/content/BookReportController.js"></script>
+<script src="src/main/app/contentlist/ContentListController.js"></script>
+
+<script src="src/main/app/grading/GradingModule.js"></script>
+
+<script>
+    Logger.useDefaults();
+</script>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="app.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div ui-view="header"></div>
+<div  ui-view></div>
+<div ui-view="footer"></div>
+
+
+
+</body>
+</html>

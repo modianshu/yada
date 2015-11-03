@@ -1,0 +1,20 @@
+package yadatest.content;
+
+import yadatest.BaseTest;
+import yada.content.SimpleYada;
+
+public class TestSimpleYadaService extends BaseTest {
+
+	@Override
+	public String getRESTEndPointEntity() {
+		// TODO Auto-generated method stub
+		return "simpleyada";
+	}
+
+	@Override
+	public String getJSON() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

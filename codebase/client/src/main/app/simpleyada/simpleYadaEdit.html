@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <form name="form" novalidate>
+
+        <div class="form-group" ng-class="{ 'has-error' : form.title1.$invalid && !form.title1.$pristine }">
+            <label>Title:</label>
+            <input type="text" name="title1" class="form-control" ng-model="vm.yada.title1" maxlength="80" required>
+            <p ng-show="form.title1.$error.required && form.title1.$dirty" class="text-danger">Please enter a title.</p>
+        </div>
+
+        <div class="form-group">
+            <label>Sub Title:</label>
+            <input type="text" name="title2" class="form-control" ng-model="vm.yada.title2" maxlength="80">
+        </div>
+
+        <div class="form-group">
+            <label>Content:</label>
+            <textarea class="form-control" name="content" rows="10" cols="50" ng-model="vm.yada.content"> </textarea>
+        </div>
+
+        <button type="submit" ng-disabled="form.$invalid" class="btn btn-success" ng-click="vm.save()">
+            Save   <span ng-show="vm.wait" class="fa fa-spinner fa-spin"></span>
+        </button>
+    </form>
+</div>

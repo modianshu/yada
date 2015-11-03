@@ -1,0 +1,5 @@
+package yada.common.users;
+
+public class Coach extends User {
+
+}

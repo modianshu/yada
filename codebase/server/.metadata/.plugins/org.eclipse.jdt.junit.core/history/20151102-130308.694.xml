@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGroupService" project="yadaserver" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="yadatest.coach.group.TestGroupService" time="1.427">
+    <testcase name="testList" classname="yadatest.coach.group.TestGroupService" time="1.121"/>
+    <testcase name="testCreate" classname="yadatest.coach.group.TestGroupService" time="0.278"/>
+    <testcase name="testDelete" classname="yadatest.coach.group.TestGroupService" time="0.028"/>
+  </testsuite>
+</testrun>

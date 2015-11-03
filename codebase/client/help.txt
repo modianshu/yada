@@ -1,0 +1,52 @@
+Train your mind: Think Angular
+
+Divide your entire website into either a single SPA or may be a few SPA
+Let's assume you are focussing on a particular SPA.
+
+Step 1: Create your root html page for this SPA. call it index.html. This is the html that will get loaded first. It should include all the CSS, js etc that you want to use in your SPA. You need to create an Angular
+Module as well for this SPA. this is where you will register all the controllers and configs for your SPA.
+
+Step 2: Start thinking about different top level states of your SPA. If it helps think of browser URLs for each state. Add states to SPA module config. For each state, think about different UI boxes. For each UI box
+create a template, controller. Each state can have multiple boxes (views).
+
+Test by activating different states using the URL. Or use sref in your pages to do some basic navigation testing.
+
+There are some nuances related to states,substates. Just learn them and use them
+
+Step 3: Start working on your UI template
+
+Step 4: start working on your controller.
+
+
+Adding an entity to the system: End to End
+Step 1:
+
+
+
+
+For example:
+HomePageApp is a SPA,
+/ will be the home page
+/signupcoach -- to signup a coach
+/signupstudent -- to signup a student
+/ will have a header, footer, signin and a few other stuff
+
+
+UI templates:
+
+Button: on click change the state of the page
+<a class="btn btn-info btn-lg" ui-sref="state1"> <span class="glyphicon glyphicon-plus"></span>Text goes here</a>
+
+
+
+Case and prefix etc
+Folder Names: Use all lower case for folders except the one that contains classes. weired but that is fine ..
+templates:Use Camel case always.
+JS: Use Camel Case always
+URL:use hypen? looks better?
+State: no suffix..let's use all lower case and just like url.
+ui-view: Think box...let's use box.
+
+To make it easy, lets use the camel case for everything except URL ..use hyphen in url.
+Use Controller suffix for controller
+

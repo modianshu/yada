@@ -1,0 +1,5 @@
+package yada.coach.group;
+
+public class GroupService {
+
+}

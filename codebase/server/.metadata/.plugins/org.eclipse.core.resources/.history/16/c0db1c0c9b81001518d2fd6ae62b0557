@@ -1,0 +1,23 @@
+package yadatest.coach.group;
+import org.junit.Test;
+import static com.jayway.restassured.RestAssured.*;
+import static com.jayway.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+import yada.coach.group.*;
+
+public class TestGroupService {
+	
+	@Test
+	public void testGet()
+	{
+		given().expect().statusCode(200).when().get("http://localhost:8080/yadaserver/api/group");
+		Group g = new Group();
+		g.setName("class1");
+		g.setDescription("Ms Meneses class");
+		given().body(g).expect().statusCode(200).when().post("http://localhost:8080/yadaserver/api/group");
+	
+	
+		
+	}
+
+}

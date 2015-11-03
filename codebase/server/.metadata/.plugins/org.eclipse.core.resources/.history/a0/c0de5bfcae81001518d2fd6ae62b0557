@@ -1,0 +1,19 @@
+package yadatest.common.user;
+
+import yadatest.BaseTest;
+
+public class TestUserService extends BaseTest {
+
+	@Override
+	public String getRESTEndPointEntity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getJSON() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

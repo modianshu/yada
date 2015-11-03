@@ -1,0 +1,22 @@
+.selected-cell {
+    color: rgb(0, 111, 166);
+    cursor: pointer;
+    display: flex;
+
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-start;
+    perspective-origin: 169px 40px;
+    transform-origin: 169px 40px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(35, 180, 202), rgb(0, 160, 220)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 111, 166);
+    font: normal normal normal normal 16px / 12.8px Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(0, 111, 166) none 0px;
+    overflow: hidden;
+    padding: 15px 20px 15px 25px;
+}/*#A_2*/

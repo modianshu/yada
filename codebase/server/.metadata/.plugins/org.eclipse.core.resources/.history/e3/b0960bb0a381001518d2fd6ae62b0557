@@ -1,0 +1,54 @@
+package yadatest.coach.group;
+import org.junit.Test;
+import static com.jayway.restassured.RestAssured.*;
+import static com.jayway.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+import yada.coach.group.*;
+import org.bson.types.*;
+import yadatest.common.*;
+public class TestGroupService extends BaseTest{
+	
+	public String getRESTEndPoint()
+	{
+		return "group";
+	}
+	
+	
+	public void testGroup()
+	{
+		//list
+		given()
+		.when().
+			get("http://localhost:8080/yadaserver/api/group")
+		.then()
+			.statusCode(200)
+			.log()
+			.all();
+		
+		
+		//create
+		ObjectId id = new ObjectId();
+		Group g = new Group();
+		g.setName("class1");
+		g.setDescription("Ms Meneses class");
+		g.setId(id);
+		given()
+			.contentType("application/json")
+			.body(g)
+		.when()
+			.post("http://localhost:8080/yadaserver/api/group")
+		.then()
+			.statusCode(200);
+		
+		//delete
+		given()
+			.pathParam("id",id.toString())
+		.when()
+			.delete("http://localhost:8080/yadaserver/api/group/{id}")
+		.then()
+			.statusCode(204);
+	
+		
+	}
+
+}

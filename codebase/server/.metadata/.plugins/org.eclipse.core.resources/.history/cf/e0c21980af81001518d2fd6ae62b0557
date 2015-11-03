@@ -1,0 +1,36 @@
+package yadatest.common.user;
+
+import org.bson.types.ObjectId;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+
+import yada.common.user.*;
+import yadatest.BaseTest;
+
+public class TestUserService extends BaseTest {
+
+	@Override
+	public String getRESTEndPointEntity() {
+		// TODO Auto-generated method stub
+		return "user";
+	}
+
+	@Override
+	public String getJSON() {
+		User g = new Group();
+		g.setName("class1");
+		g.setDescription("Ms Meneses class");
+		g.setId(new ObjectId(ID));
+		ObjectWriter writer = new ObjectMapper().writer();
+		try {
+			return writer.writeValueAsString(g);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "";
+	}
+
+}

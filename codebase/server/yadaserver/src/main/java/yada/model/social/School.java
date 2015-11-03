@@ -1,6 +1,6 @@
 package yada.model.social;
 
-import yada.model.BaseEntity;
+import yada.BaseEntity;
 
 public class School extends BaseEntity {
 

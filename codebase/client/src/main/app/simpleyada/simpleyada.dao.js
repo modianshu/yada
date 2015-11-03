@@ -6,9 +6,9 @@
             .module('app.simpleyada')
             .factory('SimpleYada', SimpleYada);
 
-        function SimpleYada($resource)
+        function SimpleYada($resource,GlobalService)
         {
-            return $resource("http://localhost:8080/yadaserver/api/simpleyada/:yadaId");
+            return $resource(GlobalService.variables.REST_SERVER+"simpleyada/:id");
         }
     }
 )();

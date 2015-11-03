@@ -5,7 +5,7 @@ import org.mongodb.morphia.Morphia;
 
 import com.mongodb.MongoClient;
 
-import yada.model.content.SimpleYada;
+import yada.content.SimpleYada;
 
 public class MorphiaManager {
 	private static MorphiaManager morphiaManager;
@@ -14,13 +14,21 @@ public class MorphiaManager {
 	private Datastore datastore;
 	public static synchronized MorphiaManager getInstance()
 	{
-		morphiaManager = new MorphiaManager();
-		morphiaManager.morphia = new Morphia();
-		morphiaManager.mongoClient = new MongoClient();
-    	Datastore datastore = morphiaManager.morphia.createDatastore(morphiaManager.mongoClient, "test");
-    	datastore.ensureIndexes();
-    	morphiaManager.morphia.map(SimpleYada.class);
+		if (morphiaManager==null)
+		{
+			morphiaManager = new MorphiaManager();
+		}
+
 		return morphiaManager;
+	}
+	
+	public MorphiaManager()
+	{
+		mongoClient = new MongoClient();
+		morphia = new Morphia();
+    	datastore = morphia.createDatastore(mongoClient, "test");
+    	datastore.ensureIndexes();
+    	morphia.map(SimpleYada.class);
 	}
 	
 	public Morphia getMorphia()
